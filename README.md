@@ -20,12 +20,14 @@ the data simultaneously. So, in this way, our both processes will work parallel 
 In 2nd File I didn’t used any other mode, I used only non-blocking standard methods but, here I changed the way of sending and receiving data for both process. Now, 1st process generates data for 1strow and immediately sent to the 2nd process for calculation. When 2nd process is receiving those data, 1st process will wait to get buffer ready to use. Once buffer gets ready, 1st process will start to work on generating 2nd row data and simultaneously, our 2nd process will work on calculation for 1st row data. Once calculation is finished by 2nd row data, it will send back to 1st process. And, this will goes on, till our loop is not finished.
 
 While compiling code, I observed some Total Execution Time changes within my code and professor code. I am sharing my observation here –
-1) Total Time for My Code - 0.012001 seconds
-Total Time for Professor Code - 0.012613 seconds
-Time Difference is - 0.000612 seconds
-2) Total Time for My Code - 0.007951 seconds
-Total Time for Professor Code - 0.009202 seconds
-Time Difference is - 0.001251 seconds
+1) For 1st File - 
+    Total Time for My Code - 0.012001 seconds
+    Total Time for Professor Code - 0.012613 seconds
+    Time Difference is - 0.000612 seconds
+2) For 2nd File -
+    Total Time for My Code - 0.007951 seconds
+    Total Time for Professor Code - 0.009202 seconds
+    Time Difference is - 0.001251 seconds
 When I run my program, I observed that my code takes less time to execute than Professor Code (only a difference of milliseconds)
 
 I have tried very hard to find work around of professor problem. It looks simple, but forced us to think on it. If my solution is not able to follow as per your constraints, please share solution to us. It will helps us a lot.
