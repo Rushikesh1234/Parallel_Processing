@@ -7,7 +7,3 @@ I have created one global cuda function, In that i am calculating (checking mini
 In Main method, I am using 'rand()' method to generate random matrix data. And, then store in Cuda variable which i used in my global function. I used 'threadsPerBlock' method to assign thread count for each block and used 'numBlocks' method for assigning block count. And, then call global function for calculating.
 
 Thanks for gving us such precious assignment. 
-
-Regards,
-Rushikesh Khamkar
-R11788309
