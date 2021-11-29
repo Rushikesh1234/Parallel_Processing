@@ -9,7 +9,3 @@ Then, In CalcForce function, i am calculating force value from 0 to i position f
 And, in last, I am printing those force value (F Array) at the end when PID =0.
 
 I have tried to get some soluion. This problem is so confusing and difficult to think for me. I hope this solution will work.
-
-Regards,
-Rushikesh
-R11788309
