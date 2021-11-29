@@ -16,7 +16,3 @@ For Receiving, I am applying same logic, just instead of sendng, i am doing rece
 I have attached code file and screenshot. I hope it gives you expected answer. If not, I apologize then, I'll try to get perfect solution for next time. 
 
 Thanks for sharing such a nice problem.
-
-Regards,
-Rushikesh
-R ID - R11788309
