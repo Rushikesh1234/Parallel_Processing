@@ -20,7 +20,3 @@ After calculation, at the end, if pid=0, we will print final calculated distance
 To showcase, time execution, I used time library also, it gives time usage by each processor.
 
 Thanks for giving such a problem which makes me to think on differnet possibility of the problem.
-
-Regards,
-Rushikesh
-R11788309
